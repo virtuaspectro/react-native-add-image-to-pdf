@@ -1,0 +1,9 @@
+android
+ios
+*.json
+node_modules
+*.md
+*.sh
+coverage
+.vscode
+lib
