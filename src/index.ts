@@ -1,6 +1,6 @@
-import { NativeModules } from 'react-native';
+import { NativeModules } from 'react-native'
 
-const LINKING_ERROR = `The package '@vrgente/signature' doesn't seem to be linked.\n`;
+const LINKING_ERROR = `The package 'react-native-add-image-to-pdf' doesn't seem to be linked.\n`
 
 const RNAddImageToPDF =
   NativeModules.RNAddImageToPDF ??
@@ -8,9 +8,9 @@ const RNAddImageToPDF =
     {},
     {
       get() {
-        throw new Error(LINKING_ERROR);
+        throw new Error(LINKING_ERROR)
       },
     }
-  );
+  )
 
-export default RNAddImageToPDF;
+export default RNAddImageToPDF
